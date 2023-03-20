@@ -8,4 +8,4 @@
  */
 
 rootProject.name = "FumoBot"
-include("app")
+include("app", "library", ":expansions:fish")

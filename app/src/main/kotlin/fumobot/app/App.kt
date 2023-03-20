@@ -1,8 +1,5 @@
 package fumobot.app
 
-import dev.kord.core.Kord
+import fumobot.library.CommonExpansion
 
-suspend fun main() {
-    val kord = Kord("token")
-    kord.login()
-}
+suspend fun main() = CommonExpansion.init()
